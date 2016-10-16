@@ -3,10 +3,9 @@ Section: web
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Sagar Ippalpalli <i.vikram15@gmail.com>
-Build-Depends:
- debhelper (>= 9)
- , dh-buildinfo
- , nodejs
+Build-Depends: debhelper (>= 9),
+	       dh-buildinfo,
+	       nodejs
 Standards-Version: 3.9.8
 Homepage: https://github.com/sindresorhus/beeper
 Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-beeper.git
@@ -14,9 +13,8 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-beeper.git
 
 Package: node-beeper
 Architecture: all
-Depends:
- ${misc:Depends}
- , nodejs
+Depends: ${misc:Depends},
+         nodejs
 Description: Make your terminal beep
  Useful as an attention grabber e.g. when an error happens. 
  .

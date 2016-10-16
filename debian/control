@@ -1,0 +1,23 @@
+Source: node-beeper
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: FIX_ME debian author
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.7
+Homepage: https://github.com/sindresorhus/beeper
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-beeper.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-beeper.git
+
+Package: node-beeper
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Make your terminal beep
+ FIX_ME long description
+ .
+ Node.js is an event-based server-side JavaScript engine.
